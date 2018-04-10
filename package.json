@@ -1,0 +1,20 @@
+{
+  "name": "ajax-promise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./server/app.js & live-server public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "live-server": "^1.2.0",
+    "morgan": "^1.9.0",
+    "shortid": "^2.2.8"
+  }
+}
