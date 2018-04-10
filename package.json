@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./server/app.js & live-server public"
+    "dev:front": "live-server public",
+    "dev:back": "nodemon ./server/app.js"
   },
   "keywords": [],
   "author": "",
